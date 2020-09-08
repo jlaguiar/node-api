@@ -55,9 +55,10 @@
 
 ```
   npm i cors
+  npm install @types/cors
 ``` 
 
-* Configuring cors in server.js
+* Configuring cors in server.js, import cors and add
 ```
   app.use(cors)
 ``` 
